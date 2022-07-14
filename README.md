@@ -67,6 +67,9 @@ public class JsonUtils {
 #### Get Response into String...
 
 ```java
+// get
+String json = JsonUtils.okhttpGet("url");
+// post
 String json = JsonUtils.okhttpPost("url", REQUEST_BODY);
 ```
 
