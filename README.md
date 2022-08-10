@@ -11,6 +11,14 @@
     implementation 'com.google.code.gson:gson:2.9.0'
 ```
 
+#### in Manifest.xml
+
+```xml
+
+android:usesCleartextTraffic="true"
+
+```
+
 #### Create java class into your project as a `JsonUtils`
 
 <Details>
